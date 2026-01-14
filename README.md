@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `Versão do node utilizada nesse projeto`
+Versão 18.20.8
 
 ### `npm start`
 
