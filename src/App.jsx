@@ -4,6 +4,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Banner />
       <Global />
     </div>
   );

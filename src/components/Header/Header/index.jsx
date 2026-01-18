@@ -1,11 +1,12 @@
 import React from "react";
+import LogoImg from "../../../assets/logo.svg";
 import { Container, Logo, Menu } from "./styles";
 
 const Header = () => {
   return (
     <Container>
       <Logo>
-        <img src="" alt="" />
+        <img src={Logo} alt="" />
       </Logo>
       <Menu>
         <ul>
