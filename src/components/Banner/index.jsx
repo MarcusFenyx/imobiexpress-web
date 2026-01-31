@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Text } from "./styles";
 
 const Banner = () => {
-    return {
+    return (
         <Container>
             <Text>
                 <h2>Discover The Beauty of Your Next Flat</h2>
@@ -10,7 +10,7 @@ const Banner = () => {
                 <span>Cadastre seu anúncio</span>
             </Text>
         </Container>
-    }
+    )
 };
 
 export default Banner;
