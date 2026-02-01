@@ -21,6 +21,6 @@ export default createGlobalStyle`
     font-size: 1.2rem;
     font-weight: 400;
     }
-    ul{list-style-type: none;}
+    ul, nav{list-style-type: none;}
     a{text-decoration: none;}
 `

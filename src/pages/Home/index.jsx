@@ -5,7 +5,7 @@ import { Header, Wrapper } from './styles';
 const Home = () => {
   let Cards = [];
   for(let i = 0; i < 4; i++){
-    Cards.push = <Card key={i} />;
+    Cards.push(<Card key={i} />);
   }
   return (
     <Fragment>

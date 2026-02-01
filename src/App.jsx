@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Banner />
       <Home />
+      <Footer />
       <Global />
     </div>
   );
