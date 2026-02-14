@@ -12,6 +12,7 @@ const Imobi = () => {
             <img src={require('../../assets/imobi.png')} alt="imobi" />
           </Thumb>
           <Description>
+            <h2>Apartamento / Alugar</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error, quas quo dolore aliquid soluta sequi! Commodi, architecto nobis doloremque rerum labore animi unde adipisci deserunt, repudiandae debitis ad maiores.</p>
           </Description>
         </Left>
@@ -33,9 +34,9 @@ const Imobi = () => {
           <ProfileFormContact>
             <h3>Contate o anunciante</h3>
             <form>
-              <input type="text" name="" id="" />
-              <input type="text" name="" id="" />
-              <textarea name="" id='' cols="30" rows="10"></textarea>
+              <input type="text" placeholder="Nome:" />
+              <input type="text" placeholder="Email:" />
+              <textarea name="" id='' cols="30" rows="10" placeholder="Mensagem:"></textarea>
               <button>Enviar mensagem</button>
             </form>
           </ProfileFormContact>
