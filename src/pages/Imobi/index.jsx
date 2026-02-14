@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import TopBanner from '../../components/TopBanner';
 import { Container, Left, Right, Thumb, Description, Profile, ProfileImg, ProfileDescription, ProfileContact, ProfileFormContact } from './styles';
 
 const Imobi = () => {

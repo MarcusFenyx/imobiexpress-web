@@ -1,6 +1,7 @@
 //import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
-import Imobi from "./pages/imobi/Imobi";
+import Footer from "./components/Footer";
+import Imobi from "./pages/Imobi";
 //import Home from "./pages/Home";
 import Global from "./styles/Global";
 
