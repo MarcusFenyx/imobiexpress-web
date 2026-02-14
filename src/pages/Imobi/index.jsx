@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Left, Right, Thumb, Description, Profile, ProfileImg, ProfileDescription } from './styles';
+import { Container, Left, Right, Thumb, Description, Profile, ProfileImg, ProfileDescription, ProfileContact, ProfileFormContact } from './styles';
 
 const Imobi = () => {
   return (
@@ -21,10 +21,23 @@ const Imobi = () => {
             </ProfileImg>
             <ProfileDescription>
               <h3>Jhon Due</h3>
-              <p>(11) 111-1111</p>
-              <p>teste@teste.com</p>
+              <p>Descrição do usuário</p>
             </ProfileDescription>
           </Profile>
+          <ProfileContact>
+              <h3>Informações para contato:</h3>
+              <p>(11) 111-1111</p>
+              <p>teste@teste.com</p>
+          </ProfileContact>
+          <ProfileFormContact>
+            <h3>Contate o anunciante</h3>
+            <form>
+              <input type="text" name="" id="" />
+              <input type="text" name="" id="" />
+              <textarea name="" id='' cols="30" rows="10"></textarea>
+              <button>Enviar mensagem</button>
+            </form>
+          </ProfileFormContact>
         </Right>
       </Container>
     </Fragment>
