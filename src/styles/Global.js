@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
     :root{
-      --prmary: #F7F9Fc;
+      --prmary: #f1f2f3;
       --secondary: #15181C;
       --gray: #D9D9D9;
       --blue: #4766FF;
