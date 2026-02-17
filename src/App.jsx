@@ -1,16 +1,13 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer";
+import { Fragment } from "react";
 import Global from "./styles/Global";
+import RouterApp from "./routes/RouterApp";
 
 function App() {
   return (
-    <div>
-      <Header />
-      
-      <Error />
-      <Footer />
+    <Fragment>
+      <RouterApp />
       <Global />
-    </div>
+    </Fragment>
   );
 }
 
